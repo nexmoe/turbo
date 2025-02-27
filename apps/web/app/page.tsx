@@ -1,5 +1,6 @@
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/components/button";
+import { RainbowButton } from "@repo/ui/components/rainbow-button";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
@@ -63,9 +64,12 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="web" className={styles.secondary}>
-          Open alert
+        <Button>
+          Shadcn Button with Tailwind 4
         </Button>
+        <RainbowButton>
+          Button based on Tailwind 3
+        </RainbowButton>
       </main>
       <footer className={styles.footer}>
         <a
