@@ -1,3 +1,5 @@
+English | [中文](./README.ZH.md)
+
 # Turborepo + Tailwind 4 + Shadcn/ui Starter
 
 This is an enhanced project template based on the official Turborepo scaffold, integrated with the latest Tailwind 4 and Shadcn/ui component library.

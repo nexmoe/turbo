@@ -1,3 +1,5 @@
+[English](./README.md) | 中文
+
 # Turborepo + Tailwind 4 + Shadcn/ui Starter
 
 这是一个基于 Turborepo 官方脚手架增强的项目模板，集成了最新的 Tailwind 4 和 Shadcn/ui 组件库。
